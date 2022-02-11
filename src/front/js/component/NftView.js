@@ -12,7 +12,7 @@ import { UploadImage } from "../component/UploadImage";
 export function NftView(props) {
   return (
     <Card>
-      <Card.Body>
+      <Card.Body id="collection-card">
         <Row>
           <Col>
             <InputGroup size="sm" className="mb-3">
@@ -94,6 +94,7 @@ export function NftView(props) {
           <Row>
             <Col>
               <a
+                id="mintedtext"
                 href={`https://${
                   !props.mainnet ? "testnets." : ""
                 }opensea.io/assets/${props.contract}/${props.value.nft_id}`}

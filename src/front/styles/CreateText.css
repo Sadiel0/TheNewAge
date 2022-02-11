@@ -1,0 +1,49 @@
+#hands {
+  mix-blend-mode: hard-light;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+h2 {
+  margin-bottom: 55px;
+  margin-top: 55px;
+  color: #fff;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(105, 18, 204),
+    0 0 42px #3e13fe, 0 0 82px #5213fe, 0 0 92px #2313fe, 0 0 102px #5213fe,
+    0 0 151px #bc13fe; */
+}
+
+#h2 {
+  border-top: 2px solid rgb(238, 229, 240);
+}
+#twoexamples {
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
+}
+#twoexamples > .card {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#colored-p {
+  margin-top: 100px;
+  margin-left: 40px;
+  color: #fff;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(105, 18, 204),
+    0 0 42px #3e13fe, 0 0 82px #5213fe, 0 0 92px #2313fe, 0 0 102px #5213fe,
+    0 0 151px #bc13fe; */
+  font-family: "Supermercado One", cursive;
+  font-size: large;
+}
+#nftimg {
+  margin: 5px;
+  display: flex;
+  height: 70px;
+}
+#reactplayer {
+  margin-right: 30x;
+}
+
+#trending {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

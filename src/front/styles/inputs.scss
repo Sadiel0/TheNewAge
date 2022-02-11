@@ -6,8 +6,17 @@
 }
 .card {
   margin-top: 10px;
+  border: none;
 }
 
-.card-body {
-  background-color: rgb(245, 241, 241);
+#collection-card {
+  background-image: linear-gradient(
+    to right bottom,
+    #0d4496,
+    #0f3f97,
+    #320f84,
+    #1f1d88,
+    #300a89
+  );
+  border: none;
 }

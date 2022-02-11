@@ -12,7 +12,7 @@ import {
 export function CollectionView(props) {
   return (
     <Card>
-      <Card.Body>
+      <Card.Body id="collection-card">
         <Row>
           <Col>
             <InputGroup size="sm" className="mb-3">
@@ -79,12 +79,15 @@ export function CollectionView(props) {
           </Col>
           {props.minted ? (
             <Col>
-              Collection was minted on{" "}
-              {props.value.mainnet ? "MainNet" : "TestNet"}
+              <h2>
+                Collection was minted on {""}
+                {props.value.mainnet ? "MainNet" : "TestNet"}
+              </h2>
             </Col>
           ) : (
             <Col>
               <Button
+                id="mint"
                 variant="primary"
                 size="lg"
                 onClick={props.onMint}
@@ -93,6 +96,7 @@ export function CollectionView(props) {
                 {props.isMinting ? "Minting..." : "Mint"}
               </Button>
               <Button
+                id="save"
                 variant="success"
                 size="lg"
                 onClick={props.onSave}

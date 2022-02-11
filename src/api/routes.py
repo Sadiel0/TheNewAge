@@ -173,3 +173,6 @@ def get_opensea_metadata(collection_id,nft_id):
         # 'attributes': jonft.attributes
     }), 200
 
+
+
+

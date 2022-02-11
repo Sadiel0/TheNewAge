@@ -2,10 +2,50 @@
     General Styles used on every website (Don't Repeat Yourself)
 */
 .add-remove {
+  font-family: "Roboto", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #remove {
   background-color: rgb(112, 7, 7);
   letter-spacing: 3px;
+}
+#remove:hover {
+  background-color: rgb(63, 5, 5);
+}
+
+#add {
+  background-color: rgb(14, 115, 231);
+}
+#add:hover {
+  background-color: rgb(7, 71, 145);
+}
+
+#mint {
+  border-radius: 50%;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+  background-color: rgb(85, 159, 243);
+  height: 100px;
+  width: 100px;
+}
+#mint:hover {
+  background-color: rgb(29, 107, 253);
+}
+
+#save {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(54, 235, 166);
+}
+#save:hover {
+  background-color: rgb(11, 121, 11);
+}
+#mintedtext {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(204, 18, 173),
+    0 0 42px #bc13fe, 0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
 }
