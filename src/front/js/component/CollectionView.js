@@ -6,7 +6,6 @@ import {
   FormControl,
   InputGroup,
   Button,
-  Form,
 } from "react-bootstrap";
 
 export function CollectionView(props) {

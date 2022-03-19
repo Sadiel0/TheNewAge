@@ -3,12 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./pages/home";
-import { Demo } from "./pages/demo";
-import { Single } from "./pages/single";
-
-import injectContext from "./store/appContext";
-
-import { Navbar } from "./component/navbar";
+import MetaVerse from "./component/metaverse"
 import { Footer } from "./component/footer";
 import { CollectionPage } from "./pages/collectionPage";
 
@@ -29,6 +24,7 @@ const Layout = () => {
             <Route exact path="/collection/:id">
               <CollectionPage />
             </Route>
+            <Route exact path="/metaverse"><MetaVerse /></Route>
 
             <Route>
               <h1>Not found!</h1>

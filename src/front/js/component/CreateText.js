@@ -107,15 +107,14 @@ export function CreateText() {
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://lh3.googleusercontent.com/SK0SfNaDkj0l7SXpSZ_l4TLgCKSc-0HP-WLlPXWa0IgRtBFopcYhovWfBcxZD_RPSHX0uGrNkWfFw8ddvi7nuj-IuZW9Lsj2si6i=w600"
+              src="https://lh3.googleusercontent.com/t4cUUlYupjxl06T79EXxCtSdq8Vnfx7rEB_TqM37sbXVtuuAGJLE2-L064EkFkOGqKUCegRSH_Yetw3aVl6hJYSGmWn0WBkkCP30glg=w600"
             />
             <Card.Body>
               <Card.Title> Ape #29664</Card.Title>
               <Card.Text>
-                Created by exposing an existing Bored Ape to a vial of MUTANT
-                SERUM or by minting a Mutant Ape in the public sale.
+              Funk, meet web 3. A collection of 8,888 unique digital hippies that are building the new free world before our eyes.
               </Card.Text>
-              <Button variant="info">Go to NFT</Button>
+              <Button variant="info" href="https://opensea.io/assets/0x82f5ef9ddc3d231962ba57a9c2ebb307dc8d26c2/6486">Go to NFT</Button>
             </Card.Body>
           </Card>
         </Col>

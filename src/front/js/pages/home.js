@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import "../../styles/home.css";
-
+import {NavBar} from '../pages/NavBar'
 import logo from "../../img/logo.jpg";
 import { CreateText } from "../component/CreateText";
 // import { TopTrending } from "../component/TopTrending";
@@ -39,6 +39,7 @@ export const Home = () => {
       <h1 className="neonText">
         The <span id="new">New</span> Age
       </h1>
+      <NavBar />
       <CreateText />
       {/* <TopTrending /> */}
       <Button className="coloredbtn" onClick={handleonClick}>
