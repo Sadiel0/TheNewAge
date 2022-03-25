@@ -16,6 +16,7 @@ function metaverse() {
   
 .then((data)=>{
   setNews(data)
+  console.log(data)
 })
 .catch(err => {
 	console.error(err);
@@ -23,15 +24,18 @@ function metaverse() {
 
     },[])
   return (
-    <div>
-      <h1>This are news</h1>
-        {news.map((item,index) => {
-          return (
+    <div className="">
+       <h1>MetaVerse</h1>
+        
+      <div className="container d-flex flex-wrap">
+      {news.filter((item, idx) => idx < 10 /*item.img === true*/  ).map((item,index) =>  {
+
+          return ( 
           <Card  key={index}  title={item.title} img={item.img} url={item.url} source={item.source}/>
           )
         })}
-        
-
+      </div>
+     
     </div>
   )
 }

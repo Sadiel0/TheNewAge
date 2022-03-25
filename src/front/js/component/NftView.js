@@ -14,7 +14,7 @@ export function NftView(props) {
     <Card>
       <Card.Body id="collection-card">
         <Row>
-          <Col>
+          <Col >
             <InputGroup size="sm" className="mb-3">
               <FormControl
                 aria-label="Small"
@@ -76,7 +76,7 @@ export function NftView(props) {
               />
             </InputGroup>
           </Col>
-          <Col>
+          <Col xs={12}>
             <div>
               <UploadImage
                 value={props.value.image_url}
