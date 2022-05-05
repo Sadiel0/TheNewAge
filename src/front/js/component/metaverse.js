@@ -4,12 +4,11 @@ function metaverse() {
     const [news, setNews] = useState([])
 
     useEffect(() =>{
-
-        fetch("https://blockchain-news1.p.rapidapi.com/news/", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "blockchain-news1.p.rapidapi.com",
-		"x-rapidapi-key": "042ca87ebdmsh74fb588ba8f852fp1fe206jsn4f13f7b280b0"
+    fetch("https://blockchain-news1.p.rapidapi.com/news/", {
+    "method": "GET",
+    "headers": {
+      "x-rapidapi-host": "blockchain-news1.p.rapidapi.com",
+      "x-rapidapi-key": "042ca87ebdmsh74fb588ba8f852fp1fe206jsn4f13f7b280b0"
 	}
 })
 .then((response) =>  response.json())

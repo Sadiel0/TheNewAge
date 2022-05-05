@@ -12,9 +12,8 @@
   display: inline-block;
 }
 h2 {
-  margin-bottom: 55px;
-  margin-top: 55px;
-  color: rgb(240, 190, 250);
+  padding: 30px;
+  color: rgb(246, 238, 248);
   /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px rgb(105, 18, 204),
     0 0 42px #3e13fe, 0 0 82px #5213fe, 0 0 92px #2313fe, 0 0 102px #5213fe,
     0 0 151px #bc13fe; */
